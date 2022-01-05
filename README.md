@@ -34,3 +34,29 @@ Step 5: Use the password and instuctions found in the hidden directory to connec
 Step 6: Establish a meterpreter connection with the Capstone VM by creating a PHP reverse shell payload, setting up an msf listener, uploading the payload to the WebDAV directory, navigating to it on the server, and clicking it to active the payload.
 
 Step 7: Find the flag using the "find" command.
+
+
+## Blue Team
+
+The purpose of the blue team section was to identify what these attacks look like from a defender's perspective, which kinds of alarms and alerts SOC and IR professionals can set to spot attacks like these while they are occuring, and to consider different ways in which the system can be hardened in order to deter these kinds of attacks from occuring to begin with.
+Kibana was the SIEM used by blue team to achieve these goals. 
+
+7 Steps were taken to complete the tasks set out for the blue team.
+
+Step 1: Create a Kibana dashboard which included reports that will be useful in the effort to identify attacks.
+
+Step 2: Identify the vulnerability scan.
+
+Step 3: Find the request for the Hidden Directoy.
+
+Step 4: Identify the brute force attack.
+
+Step 5: Find the WebDAV connection.
+
+Step 6: Identify the Reverse Shell and meterpreter taffic.
+
+Step 7: Brainstorm ways to harden the system against future attacks.
+
+
+## Conclusion
+

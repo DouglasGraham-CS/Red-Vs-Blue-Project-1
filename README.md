@@ -2,3 +2,5 @@
 This project utilized Remote Desktop Protocol to access a pre-built VM which contained more VMs within its Hyper-V Manager.
 
 ![Network Diagram](Network_Diagram.drawio.png)
+
+This document will cover a quick overview of the project. Specific details can be found in the [Project Presentation](

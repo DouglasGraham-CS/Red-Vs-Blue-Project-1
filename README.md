@@ -1,2 +1,3 @@
 # Red-Vs-Blue-Project-1: Assessment, Analysis, and Hardening of a Vulnerable System
-This repository hosts files related to the first Red Vs Blue project undertaken during Cyber Security Bootcamp.
+This project utilized Remote Desktop Protocol to access a pre-built VM which contained more VMs within its Hyper-V Manager
+![Network Diagram](/Network Diagram/Project 2 Network Diagram.drawio.png)

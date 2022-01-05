@@ -3,15 +3,7 @@ This project utilized Remote Desktop Protocol to access a pre-built VM which con
 
 ![Network Diagram](Network_Diagram.drawio.png)
 
-This document will cover a quick overview of the project. Specific details can be found in the [Project Presentation](/Project-Presentation/Capstone_Engagement_Presentation.pdf).
-
-## Table of Contents
-
-Section 1: Red Team
-
-Section 2: Blue Team
-
-Section 3: Conclusion
+This document will cover a quick overview of the project by covering the goals of red team and blue team, as well as the steps they took to accomplish those goals. Specific details can be found in the [Project Presentation](/Project-Presentation/Capstone_Engagement_Presentation.pdf).
 
 
 ## Red Team
@@ -56,7 +48,3 @@ Step 5: Find the WebDAV connection.
 Step 6: Identify the Reverse Shell and meterpreter taffic.
 
 Step 7: Brainstorm ways to harden the system against future attacks.
-
-
-## Conclusion
-

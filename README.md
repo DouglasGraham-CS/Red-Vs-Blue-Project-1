@@ -17,7 +17,7 @@ Section 3: Conclusion
 ## Red Team
 
 The goal of the red team was to "capture a flag" located in the directories of the Linux server host VM, which is the "Capstone VM" in the network diagram, using only the "Kali VM".
-To do this, a metasploit connection needed to be made with the server so that the Kali VM could have unfettered access to the contents of the Capstone VM through it's command line.
+To do this, a metasploit connection needed to be made with the Capstone VM so that the Kali VM could have unfettered access to the contents of the Capstone VM through it's command line.
 
 This was done in 7 steps.
 

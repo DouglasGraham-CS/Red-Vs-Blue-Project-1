@@ -31,6 +31,6 @@ Step 4: Crack the password hash found in the hidden directory by using free onli
 
 Step 5: Use the password and instuctions found in the hidden directory to connect to the server via WebDAV .
 
-Step 6: Create a PHP reverse shell payload, set up an msf listener, upload the payload to the WebDAV directory, navigate to it on the server, and click it to establish a meterpreter connection with the Capstone VM.
+Step 6: Establish a meterpreter connection with the Capstone VM by creating a PHP reverse shell payload, setting up an msf listener, uploading the payload to the WebDAV directory, navigating to it on the server, and clicking it to active the payload.
 
 Step 7: Find the flag using the "find" command.

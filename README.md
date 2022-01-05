@@ -23,7 +23,7 @@ This was done in 7 steps.
 
 Step 1: Discover the IP address of the Linux server using nmap.
 
-Step 2: Locate the hidden directory on the server via navigating the different directories available on the Linuc server.
+Step 2: Locate the hidden directory on the server via navigating the different directories available on the Linux server.
 
 Step 3: Brute force the password for the hidden directory using Hydra.
 

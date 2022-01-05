@@ -3,4 +3,4 @@ This project utilized Remote Desktop Protocol to access a pre-built VM which con
 
 ![Network Diagram](Network_Diagram.drawio.png)
 
-This document will cover a quick overview of the project. Specific details can be found in the [Project Presentation](
+This document will cover a quick overview of the project. Specific details can be found in the [Project Presentation](/Project-Presentation/Capstone_Engagement_Presentation.pdf)

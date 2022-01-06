@@ -3,12 +3,12 @@ This project utilized Remote Desktop Protocol to access a pre-built VM which con
 
 ![Network Diagram](Network_Diagram.drawio.png)
 
-This document will cover a quick overview of the project by covering the goals of red team and blue team, as well as the steps they took to accomplish those goals. Specific details can be found in the [Project Presentation](/Project-Presentation/Capstone_Engagement_Presentation.pdf).
+This document will cover a quick overview of the project by covering the goals of Red Team and Blue Team, as well as the steps they took to accomplish those goals. Specific details can be found in the [Project Presentation](/Project-Presentation/Capstone_Engagement_Presentation.pdf).
 
 
 ## Red Team
 
-The goal of the red team was to "capture a flag" located in the directories of the Linux server host VM, which is the "Capstone VM" in the network diagram, using only the "Kali VM".
+The goal of the Red Team was to "capture a flag" located in the directories of the Linux server host VM, which is the "Capstone VM" in the network diagram, using only the "Kali VM".
 To do this, a metasploit connection needed to be made with the Capstone VM so that the Kali VM could have unfettered access to the contents of the Capstone VM through it's command line.
 
 This was done in 7 steps.
@@ -30,10 +30,10 @@ Step 7: Find the flag using the "find" command.
 
 ## Blue Team
 
-The purpose of the blue team section was to identify what these attacks look like from a defender's perspective, which kinds of alarms and alerts SOC and IR professionals can set to spot attacks like these while they are occuring, and to consider different ways in which the system can be hardened in order to deter these kinds of attacks from occuring to begin with.
-Kibana was the SIEM used by blue team to achieve these goals. 
+The purpose of the Blue Team section was to identify what these attacks look like from a defender's perspective, which kinds of alarms and alerts SOC and IR professionals can set to spot attacks like these while they are occuring, and to consider different ways in which the system can be hardened in order to deter these kinds of attacks from occuring to begin with.
+Kibana was the SIEM used by Blue Team to achieve these goals. 
 
-7 Steps were taken to complete the tasks set out for the blue team.
+7 Steps were taken to complete the tasks set out for the Blue Team.
 
 Step 1: Create a Kibana dashboard which included reports that will be useful in the effort to identify attacks.
 
